@@ -4,13 +4,25 @@ const { dbConnection } = require("../config/config");
 const Category = require("../models/category");
 
 const categories = [
-  { name: "Actor / Actriz" },
-  { name: "Cantante" },
-  { name: "Deportista" },
-  { name: "Celebridad" },
-  { name: "Cuakito" },
-  { name: "Megacuak" },
-  { name: "Escritora / Escritor" },
+  { name: "Shonen" },
+  { name: "Shojo" },
+  { name: "Seinen" },
+  { name: "Josei" },
+  { name: "Isekai" },
+  { name: "Mecha" },
+  { name: "Romance" },
+  { name: "Comedia" },
+  { name: "Acción" },
+  { name: "Fantasía" },
+  { name: "Terror" },
+  { name: "Aventura" },
+  { name: "Slice of Life" },
+  { name: "Deportes" },
+  { name: "Histórico" },
+  { name: "Misterio" },
+  { name: "Psicológico" },
+  { name: "Autor" }
+
 ];
 
 const seedCategories = async () => {
@@ -18,9 +30,9 @@ const seedCategories = async () => {
     await dbConnection();
     await Category.deleteMany();
     const inserted = await Category.insertMany(categories);
-    console.log("🌱 Categorías Cuak insertadas:");
+    console.log(" Categorías insertadas:");
     inserted.forEach((cat) => {
-      console.log(`🟢 ${cat.name} → ID: ${cat._id}`);
+      console.log(`✅ ${cat.name} → ID: ${cat._id}`);
     });
     process.exit();
   } catch (error) {
