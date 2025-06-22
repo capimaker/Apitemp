@@ -201,7 +201,7 @@ const seedProducts = async () => {
       "Izuku Midoriya vive en un mundo lleno de superpoderes, pero no tiene ninguno... hasta que su héroe le da el suyo.",
     image: "https://rimg.bookwalker.jp/dd7b81218d839587654181b963880f7/OWWPXNVne2Og5o9nA6tp3Q__.jpg",
     author: "Kohei Horikoshi",
-    categories: [shonen._id, accion._id, escolar._id]
+    categories: [shonen._id, accion._id]
   },
   {
     name: "Jujutsu Kaisen Vol. 1",
