@@ -32,7 +32,7 @@ const seedProducts = async () => {
 
     {
     name: "Dragon Ball Vol. 1",
-    price: 8.99,
+    price: 20.99,
     description:
     "Conoce a Goku, un niño con cola y fuerza sobrehumana, en el inicio de la legendaria búsqueda de las Esferas del Dragón.",
     image: "https://rimg.bookwalker.jp/19371a6890a61f8f1f4dae9f5c4d7b1/OWWPXNVne2Og5o9nA6tp3Q__.jpg",
@@ -42,7 +42,7 @@ const seedProducts = async () => {
 
   {
     name: "Naruto Vol. 1",
-    price: 8.99,
+    price: 18.99,
     description:
       "Primer tomo de Naruto, el joven ninja que sueña con convertirse en Hokage. ¡Comienza la aventura ninja!",
     image: "https://rimg.bookwalker.jp/f38c368fd90da7a3f14b31b2caeb818/OWWPXNVne2Og5o9nA6tp3Q__.jpg",
@@ -51,7 +51,7 @@ const seedProducts = async () => {
   },
   {
     name: "One Piece Vol. 1",
-    price: 8.99,
+    price: 18.99,
     description:
       "Sigue a Luffy y su tripulación en busca del legendario tesoro One Piece. ¡Zarpa hacia la aventura!",
     image: "https://rimg.bookwalker.jp/c6b6d671ccaf90acdd470a045e720ed/OWWPXNVne2Og5o9nA6tp3Q__.jpg",
@@ -96,7 +96,7 @@ const seedProducts = async () => {
   },
   {
     name: "Attack on Titan Vol. 1",
-    price: 10.99,
+    price: 20.99,
     description:
       "La humanidad lucha por sobrevivir contra los temibles titanes. Eren Jaeger lidera la batalla.",
     image: "https://example.com/aot1.https://rimg.bookwalker.jp/2694222/OWWPXNVne2Og5o9nA6tp3Q__.jpg",
@@ -214,7 +214,7 @@ const seedProducts = async () => {
   },
   {
     name: "Demon Slayer Vol. 1",
-    price: 8.90,
+    price: 30.90,
     description:
       "Tanjiro busca una cura para su hermana convertida en demonio mientras se convierte en cazador de demonios.",
     image: "https://rimg.bookwalker.jp/9ea86a5bbe59178188451d94cf1b475/OWWPXNVne2Og5o9nA6tp3Q__.jpg",
@@ -259,7 +259,7 @@ const seedProducts = async () => {
 },
 {
   name: "Akame ga Kill! Vol. 1",
-  price: 9.80,
+  price: 29.80,
   description:
     "Tatsumi llega a la capital para forjarse un futuro, pero descubre un mundo corrupto. Se une a Night Raid, un grupo de asesinos revolucionarios liderado por la letal Akame.",
   image: "https://www.normaeditorial.com/upload/media/albumes/0001/05/thumb_4872_albumes_big.jpeg",

@@ -25,7 +25,7 @@ const UserController = {
       // await transporter.sendMail({
       //   to: req.body.email,
       //   subject: 'Confirma tu registro',
-      //   html: `<h3>Bienvenid@ a la DuckWeb, estás apunto de registrarte</h3>
+      //   html: `<h3>Bienvenid@ a AkibaMart, estás apunto de registrarte</h3>
       //   <a href="${url}">Confirma tu registro</a>`,
       // });
 

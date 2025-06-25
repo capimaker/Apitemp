@@ -37,6 +37,10 @@ const userSchema = new mongoose.Schema(
 
     },
     tokens: [],
+    tokens: {
+     type: [String],
+    default: []
+    },
     orders: [
       {
         type: mongoose.Schema.Types.ObjectId,
