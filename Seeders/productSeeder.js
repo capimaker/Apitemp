@@ -99,7 +99,7 @@ const seedProducts = async () => {
     price: 20.99,
     description:
       "La humanidad lucha por sobrevivir contra los temibles titanes. Eren Jaeger lidera la batalla.",
-    image: "https://example.com/aot1.https://rimg.bookwalker.jp/2694222/OWWPXNVne2Og5o9nA6tp3Q__.jpg",
+    image: "https://www.normaeditorial.com/upload/media/albumes/0001/04/thumb_3877_albumes_big.jpeg",
     author: "Hajime Isayama",
     categories: [shonen._id, accion._id, terror._id]
   },
