@@ -149,11 +149,11 @@ const UserController = {
     try {
       const user = await User.findById(req.user._id)
         .select('-password -tokens') // Oculta contraseña y tokens
-        .populate({
+       /* .populate({
           path: 'wishlist',
           select: 'name price',
         });
-
+*/
       if (!user) {
         return res.status(404).json({ msg: 'Usuario no encontrado' });
       }
