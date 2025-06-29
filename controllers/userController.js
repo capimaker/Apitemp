@@ -148,7 +148,7 @@ const UserController = {
   async getProfile(req, res) {
     try {
       const user = await User.findById(req.user._id)
-        .select('-password -tokens') // Oculta contraseña y tokens
+        .select('-password -tokens'); // Oculta contraseña y tokens
        /* .populate({
           path: 'wishlist',
           select: 'name price',
