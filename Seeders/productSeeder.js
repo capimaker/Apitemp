@@ -77,7 +77,7 @@ const seedProducts = async () => {
     categories: [shojo._id, fantasia._id, romance._id]
   },
   {
-  name: "That Time I Got Reincarnated as a Slime Vol. 1",
+  name: "Tensei Shitara Slime...Vol. 1",
   price: 9.90,
   description:
     "Satoru Mikami muere y renace como un slime en un mundo de fantasía. Con habilidades únicas, cambiará el destino de monstruos y humanos por igual.",
